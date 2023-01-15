@@ -1,16 +1,16 @@
-{application, cowboy_metrics_demo,
- [{description, "An OTP application"},
-  {vsn, "0.1.0"},
-  {registered, []},
-  {mod, {cowboy_metrics_demo_app, []}},
-  {applications,
-   [kernel,
-    stdlib,
-    cowboy
-   ]},
-  {env,[]},
-  {modules, []},
+{application, cowboy_metrics_demo, [
+    {description, "An OTP application"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, {cowboy_metrics_demo_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy
+    ]},
+    {env, []},
+    {modules, []},
 
-  {licenses, ["Apache-2.0"]},
-  {links, []}
- ]}.
+    {licenses, ["Apache-2.0"]},
+    {links, []}
+]}.
