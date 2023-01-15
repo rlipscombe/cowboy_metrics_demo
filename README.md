@@ -1,9 +1,3 @@
-cowboy_metrics_demo
-=====
+# cowboy_metrics_demo
 
-An OTP application
-
-Build
------
-
-    $ rebar3 compile
+Demonstrate reporting metrics from Cowboy.
